@@ -1,0 +1,26 @@
+{
+  "name": "test_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/nyc/bin/nyc.js --reporter=lcov --reporter=html node_modules/mocha/bin/_mocha --require esm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noaKurman/Test_code.git"
+  },
+  "author": "Noa Kurman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noaKurman/Test_code/issues"
+  },
+  "homepage": "https://github.com/noaKurman/Test_code#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "esm": "^3.2.25",
+    "mocha": "^8.3.0",
+    "nyc": "^15.1.0",
+    "winston": "^3.3.3"
+  }
+}
