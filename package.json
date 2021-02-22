@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/nyc/bin/nyc.js --reporter=lcov --reporter=html node_modules/mocha/bin/_mocha --require esm test"
+    "test": "node_modules/nyc/bin/nyc.js --reporter=cobertura --reporter=lcov --reporter=html node_modules/mocha/bin/_mocha --require esm test"
   },
   "repository": {
     "type": "git",
